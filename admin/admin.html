@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" type="text/css" href="./admin.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Admin Panel</h1>
+    </header>
+
+    <main>
+        <h2>Categories</h2>
+        <div id="categories-list">
+        </div>
+    </main>
+
+    <div class="login-form" >
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">User Name:</label>
+
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script src="./admin.js"></script>
+    <script src="./data.js"></script>
+</body>
+
+</html>
